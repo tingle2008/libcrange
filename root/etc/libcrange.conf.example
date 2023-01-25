@@ -1,0 +1,21 @@
+############
+#
+# Basic libcrange config file
+# Actual file gemstone managed
+#
+############
+loadmodule ip
+loadmodule yst-ip-list
+loadmodule nodescf
+loadmodule yamlfile
+mysqluser=root
+mysqldb=nodecf
+loadmodule group-mysql
+pgsql_user=postgres
+pgsql_db=cor
+pgsql_passwd=''
+pgsql_host=168.63.217.72
+pgsql_port=5432
+loadmodule cor-pgsql
+perlmodule LibrangeUtils
+

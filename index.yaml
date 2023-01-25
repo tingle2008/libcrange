@@ -1,0 +1,17 @@
+default:
+  name: libcrange
+  summary: C version of librange
+  version: '1.0.1'
+  release: 368
+  requires:
+     - python-cffi
+     - apr
+     - flex
+     - libyaml
+     - pcre
+     - perl
+     - perl-YAML-Syck
+     - perl-core
+     - perl-libs
+     - sqlite
+#    - cpan-yaml-syck
